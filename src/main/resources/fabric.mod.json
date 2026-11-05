@@ -1,0 +1,39 @@
+
+{
+    "schemaVersion": 1,
+    "id": "the-architect",
+    "version": "${version}",
+    "name": "The-Architect",
+    "description": "An intelligent Minecraft companion.",
+    "authors": [
+        "Me!"
+    ],
+    "contact": {
+        "homepage": "https://fabricmc.net/",
+        "sources": "https://github.com/FabricMC/fabric-example-mod"
+    },
+    "license": "CC0-1.0",
+    "icon": "assets/the-architect/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.thearchitect.TheArchitect"
+        ],
+        "client": [
+            "com.thearchitect.client.TheArchitectClient"
+        ]
+    },
+    "mixins": [
+        "the-architect.mixins.json",
+        {
+            "config": "the-architect.client.mixins.json",
+            "environment": "client"
+        }
+    ],
+    "depends": {
+        "fabricloader": ">=0.20.1",
+        "minecraft": "~26.1",
+        "java": ">=25",
+        "fabric-api": "*"
+    }
+}
