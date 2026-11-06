@@ -25,4 +25,3 @@ GitHub: [@FranzHermann12](https://github.com/FranzHermann12)
 
 ---
 
-*Building a companion, one system at a time.*
