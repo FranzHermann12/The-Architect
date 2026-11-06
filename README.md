@@ -17,6 +17,10 @@ This project is being developed as an independent learning and programming proje
 
 Contributions and constructive feedback are welcome as the project develops.
 
+This project is made completely out of scratch so bugs and error may be there.
+
+More Updated version of this bot will come with everything fix and more intelligent 
+
 ## Author
 
 **Franz_Hermann1**
